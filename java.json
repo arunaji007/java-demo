@@ -1,0 +1,2518 @@
+[
+  {
+    "ruleKey": "AbbreviationAsWordInName",
+    "name": "rules.abbreviationAsWordInName",
+    "label": "AbbreviationAsWordInName",
+    "description": "Validates abbreviations (consecutive capital letters) length in identifier name, it also allows to enforce camel case naming.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['abbreviationAsWordInName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "AbstractClassName",
+    "name": "rules.abstractClassName",
+    "label": "AbstractClassName",
+    "description": "Ensures that the names of abstract classes conforming to some pattern and check that abstract modifier exists.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['abstractClassName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "AnnotationLocation",
+    "name": "rules.annotationLocation",
+    "label": "AnnotationLocation",
+    "description": "Checks location of annotation on language elements.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['annotationLocation']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "annotation"
+  },
+  {
+    "ruleKey": "AnnotationOnSameLine",
+    "name": "rules.annotationOnSameLine",
+    "label": "AnnotationOnSameLine",
+    "description": "Checks that annotations are located on the same line with their targets.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['annotationOnSameLine']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "annotation"
+  },
+  {
+    "ruleKey": "AnnotationUseStyle",
+    "name": "rules.annotationUseStyle",
+    "label": "AnnotationUseStyle",
+    "description": "Checks the style of elements in annotations.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['annotationUseStyle']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "annotation"
+  },
+  {
+    "ruleKey": "AnonInnerLength",
+    "name": "rules.anonInnerLength",
+    "label": "AnonInnerLength",
+    "description": "Checks for long anonymous inner classes.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['anonInnerLength']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "sizes"
+  },
+  {
+    "ruleKey": "ArrayTrailingComma",
+    "name": "rules.arrayTrailingComma",
+    "label": "ArrayTrailingComma",
+    "description": "Checks that array initialization contains a trailing comma.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['arrayTrailingComma']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "ArrayTypeStyle",
+    "name": "rules.arrayTypeStyle",
+    "label": "ArrayTypeStyle",
+    "description": "Checks the style of array type definitions.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['arrayTypeStyle']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "misc"
+  },
+  {
+    "ruleKey": "AtclauseOrder",
+    "name": "rules.atclauseOrder",
+    "label": "AtclauseOrder",
+    "description": "Checks the order of javadoc block-tags or javadoc tags.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['atclauseOrder']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "AvoidDoubleBraceInitialization",
+    "name": "rules.avoidDoubleBraceInitialization",
+    "label": "AvoidDoubleBraceInitialization",
+    "description": "Detects double brace initialization.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['avoidDoubleBraceInitialization']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "AvoidEscapedUnicodeCharacters",
+    "name": "rules.avoidEscapedUnicodeCharacters",
+    "label": "AvoidEscapedUnicodeCharacters",
+    "description": "Restricts using Unicode escapes (such as \\u221e).",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['avoidEscapedUnicodeCharacters']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "misc"
+  },
+  {
+    "ruleKey": "AvoidInlineConditionals",
+    "name": "rules.avoidInlineConditionals",
+    "label": "AvoidInlineConditionals",
+    "description": "Detects inline conditionals.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['avoidInlineConditionals']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "AvoidNestedBlocks",
+    "name": "rules.avoidNestedBlocks",
+    "label": "AvoidNestedBlocks",
+    "description": "Finds nested blocks (blocks that are used freely in the code).",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['avoidNestedBlocks']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "blocks"
+  },
+  {
+    "ruleKey": "AvoidNoArgumentSuperConstructorCall",
+    "name": "rules.avoidNoArgumentSuperConstructorCall",
+    "label": "AvoidNoArgumentSuperConstructorCall",
+    "description": "Checks if call to superclass constructor without arguments is present.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['avoidNoArgumentSuperConstructorCall']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "AvoidStarImport",
+    "name": "rules.avoidStarImport",
+    "label": "AvoidStarImport",
+    "description": "Checks that there are no import statements that use the * notation.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['avoidStarImport']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "imports"
+  },
+  {
+    "ruleKey": "AvoidStaticImport",
+    "name": "rules.avoidStaticImport",
+    "label": "AvoidStaticImport",
+    "description": "Checks that there are no static import statements.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['avoidStaticImport']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "imports"
+  },
+  {
+    "ruleKey": "BooleanExpressionComplexity",
+    "name": "rules.booleanExpressionComplexity",
+    "label": "BooleanExpressionComplexity",
+    "description": "Restricts the number of boolean operators (&&, ||, &, | and ^) in an expression.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['booleanExpressionComplexity']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "metrics"
+  },
+  {
+    "ruleKey": "CatchParameterName",
+    "name": "rules.catchParameterName",
+    "label": "CatchParameterName",
+    "description": "Checks that catch parameter names conform to a specified pattern.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['catchParameterName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "ClassDataAbstractionCoupling",
+    "name": "rules.classDataAbstractionCoupling",
+    "label": "ClassDataAbstractionCoupling",
+    "description": "Measures the number of distinct classes that are instantiated within the given class or record.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['classDataAbstractionCoupling']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "metrics"
+  },
+  {
+    "ruleKey": "ClassFanOutComplexity",
+    "name": "rules.classFanOutComplexity",
+    "label": "ClassFanOutComplexity",
+    "description": "Checks the number of other types a given class/record/interface/enum/annotation relies on.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['classFanOutComplexity']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "metrics"
+  },
+  {
+    "ruleKey": "ClassMemberImpliedModifier",
+    "name": "rules.classMemberImpliedModifier",
+    "label": "ClassMemberImpliedModifier",
+    "description": "Checks for implicit modifiers on nested types in classes and records.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['classMemberImpliedModifier']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "modifier"
+  },
+  {
+    "ruleKey": "ClassTypeParameterName",
+    "name": "rules.classTypeParameterName",
+    "label": "ClassTypeParameterName",
+    "description": "Checks that class type parameter names conform to a specified pattern.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['classTypeParameterName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "CommentsIndentation",
+    "name": "rules.commentsIndentation",
+    "label": "CommentsIndentation",
+    "description": "Controls the indentation between comments and surrounding code.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['commentsIndentation']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "misc"
+  },
+  {
+    "ruleKey": "ConstantName",
+    "name": "rules.constantName",
+    "label": "ConstantName",
+    "description": "Checks that constant names conform to a specified pattern.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['constantName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "ConstructorsDeclarationGrouping",
+    "name": "rules.constructorsDeclarationGrouping",
+    "label": "ConstructorsDeclarationGrouping",
+    "description": "Checks that all constructors are grouped together.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['constructorsDeclarationGrouping']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "CovariantEquals",
+    "name": "rules.covariantEquals",
+    "label": "CovariantEquals",
+    "description": "Checks that classes and records which define a covariant equals() method also override method equals(Object).",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['covariantEquals']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "CustomImportOrder",
+    "name": "rules.customImportOrder",
+    "label": "CustomImportOrder",
+    "description": "Checks that the groups of import declarations appear in the order specified by the user.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['customImportOrder']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "imports"
+  },
+  {
+    "ruleKey": "CyclomaticComplexity",
+    "name": "rules.cyclomaticComplexity",
+    "label": "CyclomaticComplexity",
+    "description": "Checks cyclomatic complexity against a specified limit.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['cyclomaticComplexity']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "metrics"
+  },
+  {
+    "ruleKey": "DeclarationOrder",
+    "name": "rules.declarationOrder",
+    "label": "DeclarationOrder",
+    "description": "Checks that the parts of a class, record, or interface declaration appear in the order suggested by the Code Conventions for the Java Programming Language.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['declarationOrder']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "DefaultComesLast",
+    "name": "rules.defaultComesLast",
+    "label": "DefaultComesLast",
+    "description": "Check that the default is after all the cases in a switch statement.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['defaultComesLast']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "DescendantToken",
+    "name": "rules.descendantToken",
+    "label": "DescendantToken",
+    "description": "Checks for restricted tokens beneath other tokens.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['descendantToken']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "misc"
+  },
+  {
+    "ruleKey": "DesignForExtension",
+    "name": "rules.designForExtension",
+    "label": "DesignForExtension",
+    "description": "Checks that classes are designed for extension (subclass creation).",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['designForExtension']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "design"
+  },
+  {
+    "ruleKey": "EmptyBlock",
+    "name": "rules.emptyBlock",
+    "label": "EmptyBlock",
+    "description": "Checks for empty blocks.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['emptyBlock']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "blocks"
+  },
+  {
+    "ruleKey": "EmptyCatchBlock",
+    "name": "rules.emptyCatchBlock",
+    "label": "EmptyCatchBlock",
+    "description": "Checks for empty catch blocks.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['emptyCatchBlock']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "blocks"
+  },
+  {
+    "ruleKey": "EmptyForInitializerPad",
+    "name": "rules.emptyForInitializerPad",
+    "label": "EmptyForInitializerPad",
+    "description": "Checks the padding of an empty for initializer.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['emptyForInitializerPad']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "whitespace"
+  },
+  {
+    "ruleKey": "EmptyForIteratorPad",
+    "name": "rules.emptyForIteratorPad",
+    "label": "EmptyForIteratorPad",
+    "description": "Checks the padding of an empty for iterator.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['emptyForIteratorPad']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "whitespace"
+  },
+  {
+    "ruleKey": "EmptyLineSeparator",
+    "name": "rules.emptyLineSeparator",
+    "label": "EmptyLineSeparator",
+    "description": "Checks for empty line separators before package, all import declarations, fields, constructors, methods, nested classes, static initializers and instance initializers.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['emptyLineSeparator']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "whitespace"
+  },
+  {
+    "ruleKey": "EmptyStatement",
+    "name": "rules.emptyStatement",
+    "label": "EmptyStatement",
+    "description": "Detects empty statements (standalone ';' semicolon).",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['emptyStatement']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "EqualsAvoidNull",
+    "name": "rules.equalsAvoidNull",
+    "label": "EqualsAvoidNull",
+    "description": "Checks that any combination of String literals is on the left side of an equals() comparison.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['equalsAvoidNull']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "EqualsHashCode",
+    "name": "rules.equalsHashCode",
+    "label": "EqualsHashCode",
+    "description": "Checks that classes that either override equals() or hashCode() also overrides the other.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['equalsHashCode']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "ExecutableStatementCount",
+    "name": "rules.executableStatementCount",
+    "label": "ExecutableStatementCount",
+    "description": "Restricts the number of executable statements to a specified limit.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['executableStatementCount']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "sizes"
+  },
+  {
+    "ruleKey": "ExplicitInitialization",
+    "name": "rules.explicitInitialization",
+    "label": "ExplicitInitialization",
+    "description": "Checks if any class or object member is explicitly initialized to default for its type value.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['explicitInitialization']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "FallThrough",
+    "name": "rules.fallThrough",
+    "label": "FallThrough",
+    "description": "Checks for fall-through in switch statements.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['fallThrough']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "FileLength",
+    "name": "rules.fileLength",
+    "label": "FileLength",
+    "description": "Checks for long source files.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['fileLength']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "sizes"
+  },
+  {
+    "ruleKey": "FileTabCharacter",
+    "name": "rules.fileTabCharacter",
+    "label": "FileTabCharacter",
+    "description": "Checks that there are no tab characters ('\\t') in the source code.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['fileTabCharacter']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "whitespace"
+  },
+  {
+    "ruleKey": "FinalClass",
+    "name": "rules.finalClass",
+    "label": "FinalClass",
+    "description": "Ensures that identifies classes that can be effectively declared as final are explicitly marked as final.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['finalClass']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "design"
+  },
+  {
+    "ruleKey": "FinalLocalVariable",
+    "name": "rules.finalLocalVariable",
+    "label": "FinalLocalVariable",
+    "description": "Checks that local variables that never have their values changed are declared final.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['finalLocalVariable']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "FinalParameters",
+    "name": "rules.finalParameters",
+    "label": "FinalParameters",
+    "description": "Checks that parameters for methods, constructors, catch and for-each blocks are final.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['finalParameters']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "misc"
+  },
+  {
+    "ruleKey": "GenericWhitespace",
+    "name": "rules.genericWhitespace",
+    "label": "GenericWhitespace",
+    "description": "Checks that the whitespace around the Generic tokens (angle brackets) are correct to the typical convention.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['genericWhitespace']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "whitespace"
+  },
+  {
+    "ruleKey": "Header",
+    "name": "rules.header",
+    "label": "Header",
+    "description": "Checks that a source file begins with a specified header.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['header']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "header"
+  },
+  {
+    "ruleKey": "HiddenField",
+    "name": "rules.hiddenField",
+    "label": "HiddenField",
+    "description": "Checks that a local variable or a parameter does not shadow a field that is defined in the same class.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['hiddenField']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "HideUtilityClassConstructor",
+    "name": "rules.hideUtilityClassConstructor",
+    "label": "HideUtilityClassConstructor",
+    "description": "Makes sure that utility classes do not have a public constructor.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['hideUtilityClassConstructor']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "design"
+  },
+  {
+    "ruleKey": "IllegalCatch",
+    "name": "rules.illegalCatch",
+    "label": "IllegalCatch",
+    "description": "Checks that certain exception types do not appear in a catch statement.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['illegalCatch']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "IllegalIdentifierName",
+    "name": "rules.illegalIdentifierName",
+    "label": "IllegalIdentifierName",
+    "description": "Checks identifiers against a regular expression pattern to detect illegal names.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['illegalIdentifierName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "IllegalImport",
+    "name": "rules.illegalImport",
+    "label": "IllegalImport",
+    "description": "Checks for imports from a set of illegal packages and modules.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['illegalImport']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "imports"
+  },
+  {
+    "ruleKey": "IllegalInstantiation",
+    "name": "rules.illegalInstantiation",
+    "label": "IllegalInstantiation",
+    "description": "Checks for illegal instantiations where a factory method is preferred.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['illegalInstantiation']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "IllegalThrows",
+    "name": "rules.illegalThrows",
+    "label": "IllegalThrows",
+    "description": "Checks that specified types are not declared to be thrown.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['illegalThrows']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "IllegalToken",
+    "name": "rules.illegalToken",
+    "label": "IllegalToken",
+    "description": "Checks for illegal tokens.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['illegalToken']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "IllegalTokenText",
+    "name": "rules.illegalTokenText",
+    "label": "IllegalTokenText",
+    "description": "Checks specified tokens text for matching an illegal pattern.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['illegalTokenText']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "IllegalType",
+    "name": "rules.illegalType",
+    "label": "IllegalType",
+    "description": "Checks that particular classes or interfaces are never used.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['illegalType']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "ImportControl",
+    "name": "rules.importControl",
+    "label": "ImportControl",
+    "description": "Controls what can be imported in each package and file.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['importControl']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "imports"
+  },
+  {
+    "ruleKey": "ImportOrder",
+    "name": "rules.importOrder",
+    "label": "ImportOrder",
+    "description": "Checks the ordering/grouping of imports.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['importOrder']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "imports"
+  },
+  {
+    "ruleKey": "Indentation",
+    "name": "rules.indentation",
+    "label": "Indentation",
+    "description": "Checks correct indentation of Java code.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['indentation']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "misc"
+  },
+  {
+    "ruleKey": "InnerAssignment",
+    "name": "rules.innerAssignment",
+    "label": "InnerAssignment",
+    "description": "Checks for assignments in subexpressions.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['innerAssignment']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "InnerTypeLast",
+    "name": "rules.innerTypeLast",
+    "label": "InnerTypeLast",
+    "description": "Checks nested classes/interfaces are declared at the bottom of the class.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['innerTypeLast']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "design"
+  },
+  {
+    "ruleKey": "InterfaceIsType",
+    "name": "rules.interfaceIsType",
+    "label": "InterfaceIsType",
+    "description": "Implements Joshua Bloch, Effective Java, Item 17 - Use Interfaces only to define types.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['interfaceIsType']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "design"
+  },
+  {
+    "ruleKey": "InterfaceMemberImpliedModifier",
+    "name": "rules.interfaceMemberImpliedModifier",
+    "label": "InterfaceMemberImpliedModifier",
+    "description": "Checks for implicit modifiers on interface members and nested types.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['interfaceMemberImpliedModifier']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "modifier"
+  },
+  {
+    "ruleKey": "InterfaceTypeParameterName",
+    "name": "rules.interfaceTypeParameterName",
+    "label": "InterfaceTypeParameterName",
+    "description": "Checks that interface type parameter names conform to a specified pattern.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['interfaceTypeParameterName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "InvalidJavadocPosition",
+    "name": "rules.invalidJavadocPosition",
+    "label": "InvalidJavadocPosition",
+    "description": "Checks that Javadocs are located at the correct position.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['invalidJavadocPosition']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "JavaNCSS",
+    "name": "rules.javaNCSS",
+    "label": "JavaNCSS",
+    "description": "Determines complexity of methods, classes and files by counting the Non Commenting Source Statements (NCSS).",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['javaNCSS']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "metrics"
+  },
+  {
+    "ruleKey": "JavadocBlockTagLocation",
+    "name": "rules.javadocBlockTagLocation",
+    "label": "JavadocBlockTagLocation",
+    "description": "Checks that a javadoc block tag appears only at the beginning of a line.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['javadocBlockTagLocation']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "JavadocContentLocation",
+    "name": "rules.javadocContentLocation",
+    "label": "JavadocContentLocation",
+    "description": "Checks that the Javadoc content begins from the same position for all Javadoc comments.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['javadocContentLocation']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "JavadocMethod",
+    "name": "rules.javadocMethod",
+    "label": "JavadocMethod",
+    "description": "Checks the Javadoc of a method or constructor.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['javadocMethod']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "JavadocMissingLeadingAsterisk",
+    "name": "rules.javadocMissingLeadingAsterisk",
+    "label": "JavadocMissingLeadingAsterisk",
+    "description": "Checks if the javadoc has leading asterisks on each line.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['javadocMissingLeadingAsterisk']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "JavadocMissingWhitespaceAfterAsterisk",
+    "name": "rules.javadocMissingWhitespaceAfterAsterisk",
+    "label": "JavadocMissingWhitespaceAfterAsterisk",
+    "description": "Checks that there is at least one whitespace after the leading asterisk.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['javadocMissingWhitespaceAfterAsterisk']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "JavadocPackage",
+    "name": "rules.javadocPackage",
+    "label": "JavadocPackage",
+    "description": "Checks that each Java package has a Javadoc file used for commenting.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['javadocPackage']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "JavadocParagraph",
+    "name": "rules.javadocParagraph",
+    "label": "JavadocParagraph",
+    "description": "Checks the Javadoc paragraph.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['javadocParagraph']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "JavadocStyle",
+    "name": "rules.javadocStyle",
+    "label": "JavadocStyle",
+    "description": "Validates Javadoc comments to help ensure they are well formed.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['javadocStyle']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "JavadocTagContinuationIndentation",
+    "name": "rules.javadocTagContinuationIndentation",
+    "label": "JavadocTagContinuationIndentation",
+    "description": "Checks the indentation of the continuation lines in block tags.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['javadocTagContinuationIndentation']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "JavadocType",
+    "name": "rules.javadocType",
+    "label": "JavadocType",
+    "description": "Checks the Javadoc comments for type definitions.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['javadocType']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "JavadocVariable",
+    "name": "rules.javadocVariable",
+    "label": "JavadocVariable",
+    "description": "Checks that a variable has a Javadoc comment.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['javadocVariable']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "LambdaBodyLength",
+    "name": "rules.lambdaBodyLength",
+    "label": "LambdaBodyLength",
+    "description": "Checks lambda body length.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['lambdaBodyLength']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "sizes"
+  },
+  {
+    "ruleKey": "LambdaParameterName",
+    "name": "rules.lambdaParameterName",
+    "label": "LambdaParameterName",
+    "description": "Checks lambda parameter names.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['lambdaParameterName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "LeftCurly",
+    "name": "rules.leftCurly",
+    "label": "LeftCurly",
+    "description": "Checks for the placement of left curly braces for code blocks.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['leftCurly']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "blocks"
+  },
+  {
+    "ruleKey": "LineLength",
+    "name": "rules.lineLength",
+    "label": "LineLength",
+    "description": "Checks for long lines.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['lineLength']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "sizes"
+  },
+  {
+    "ruleKey": "LocalFinalVariableName",
+    "name": "rules.localFinalVariableName",
+    "label": "LocalFinalVariableName",
+    "description": "Checks that local final variable names conform to a specified pattern.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['localFinalVariableName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "LocalVariableName",
+    "name": "rules.localVariableName",
+    "label": "LocalVariableName",
+    "description": "Checks that local, non-final variable names conform to a specified pattern.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['localVariableName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "MagicNumber",
+    "name": "rules.magicNumber",
+    "label": "MagicNumber",
+    "description": "Checks that there are no magic numbers.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['magicNumber']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "MemberName",
+    "name": "rules.memberName",
+    "label": "MemberName",
+    "description": "Checks that instance variable names conform to a specified pattern.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['memberName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "MethodCount",
+    "name": "rules.methodCount",
+    "label": "MethodCount",
+    "description": "Checks the number of methods declared in each type declaration.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['methodCount']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "sizes"
+  },
+  {
+    "ruleKey": "MethodLength",
+    "name": "rules.methodLength",
+    "label": "MethodLength",
+    "description": "Checks for long methods and constructors.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['methodLength']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "sizes"
+  },
+  {
+    "ruleKey": "MethodName",
+    "name": "rules.methodName",
+    "label": "MethodName",
+    "description": "Checks that method names conform to a specified pattern.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['methodName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "MethodParamPad",
+    "name": "rules.methodParamPad",
+    "label": "MethodParamPad",
+    "description": "Checks the padding between the identifier of a method definition and the left parenthesis.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['methodParamPad']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "whitespace"
+  },
+  {
+    "ruleKey": "MethodTypeParameterName",
+    "name": "rules.methodTypeParameterName",
+    "label": "MethodTypeParameterName",
+    "description": "Checks that method type parameter names conform to a specified pattern.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['methodTypeParameterName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "MissingCtor",
+    "name": "rules.missingCtor",
+    "label": "MissingCtor",
+    "description": "Checks that classes define a constructor and don't rely on the default one.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['missingCtor']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "MissingDeprecated",
+    "name": "rules.missingDeprecated",
+    "label": "MissingDeprecated",
+    "description": "Verifies that the annotation @Deprecated and the Javadoc tag @deprecated are both present.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['missingDeprecated']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "annotation"
+  },
+  {
+    "ruleKey": "MissingJavadocMethod",
+    "name": "rules.missingJavadocMethod",
+    "label": "MissingJavadocMethod",
+    "description": "Checks for missing Javadoc comments for a method or constructor.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['missingJavadocMethod']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "MissingJavadocPackage",
+    "name": "rules.missingJavadocPackage",
+    "label": "MissingJavadocPackage",
+    "description": "Checks for missing package definition Javadoc comments in package-info.java files.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['missingJavadocPackage']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "MissingJavadocType",
+    "name": "rules.missingJavadocType",
+    "label": "MissingJavadocType",
+    "description": "Checks for missing Javadoc comments for class, enum, interface, and annotation interface definitions.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['missingJavadocType']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "MissingNullCaseInSwitch",
+    "name": "rules.missingNullCaseInSwitch",
+    "label": "MissingNullCaseInSwitch",
+    "description": "Checks that a switch statement has a null case label.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['missingNullCaseInSwitch']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "MissingOverride",
+    "name": "rules.missingOverride",
+    "label": "MissingOverride",
+    "description": "Verifies that the @Override annotation is present when the @inheritDoc javadoc tag is present.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['missingOverride']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "annotation"
+  },
+  {
+    "ruleKey": "MissingSwitchDefault",
+    "name": "rules.missingSwitchDefault",
+    "label": "MissingSwitchDefault",
+    "description": "Checks that switch statement has a default clause.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['missingSwitchDefault']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "ModifiedControlVariable",
+    "name": "rules.modifiedControlVariable",
+    "label": "ModifiedControlVariable",
+    "description": "Checks that for loop control variables are not modified inside the for block.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['modifiedControlVariable']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "ModifierOrder",
+    "name": "rules.modifierOrder",
+    "label": "ModifierOrder",
+    "description": "Checks that the order of modifiers conforms to the Java Language specification.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['modifierOrder']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "modifier"
+  },
+  {
+    "ruleKey": "MultipleStringLiterals",
+    "name": "rules.multipleStringLiterals",
+    "label": "MultipleStringLiterals",
+    "description": "Checks for multiple occurrences of the same string literal within a single file.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['multipleStringLiterals']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "MultipleVariableDeclarations",
+    "name": "rules.multipleVariableDeclarations",
+    "label": "MultipleVariableDeclarations",
+    "description": "Checks that each variable declaration is in its own statement and on its own line.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['multipleVariableDeclarations']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "MutableException",
+    "name": "rules.mutableException",
+    "label": "MutableException",
+    "description": "Ensures that exception classes are immutable.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['mutableException']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "design"
+  },
+  {
+    "ruleKey": "NPathComplexity",
+    "name": "rules.nPathComplexity",
+    "label": "NPathComplexity",
+    "description": "Checks the NPATH complexity against a specified limit.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['nPathComplexity']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "metrics"
+  },
+  {
+    "ruleKey": "NeedBraces",
+    "name": "rules.needBraces",
+    "label": "NeedBraces",
+    "description": "Checks for braces around code blocks.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['needBraces']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "blocks"
+  },
+  {
+    "ruleKey": "NestedForDepth",
+    "name": "rules.nestedForDepth",
+    "label": "NestedForDepth",
+    "description": "Restricts the depth of nested for loops.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['nestedForDepth']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "metrics"
+  },
+  {
+    "ruleKey": "NestedIfDepth",
+    "name": "rules.nestedIfDepth",
+    "label": "NestedIfDepth",
+    "description": "Restricts the depth of nested if-else statements.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['nestedIfDepth']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "metrics"
+  },
+  {
+    "ruleKey": "NestedTryDepth",
+    "name": "rules.nestedTryDepth",
+    "label": "NestedTryDepth",
+    "description": "Restricts the depth of nested try-catch blocks.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['nestedTryDepth']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "metrics"
+  },
+  {
+    "ruleKey": "NoCodeInFile",
+    "name": "rules.noCodeInFile",
+    "label": "NoCodeInFile",
+    "description": "Checks that a file contains only comments and no executable code.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['noCodeInFile']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "misc"
+  },
+  {
+    "ruleKey": "NoFinalizer",
+    "name": "rules.noFinalizer",
+    "label": "NoFinalizer",
+    "description": "Checks that finalize() methods are not used.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['noFinalizer']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "NoLineWrap",
+    "name": "rules.noLineWrap",
+    "label": "NoLineWrap",
+    "description": "Checks that there are no line wraps where they are not allowed.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['noLineWrap']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "whitespace"
+  },
+  {
+    "ruleKey": "NonEmptyAtclauseDescription",
+    "name": "rules.nonEmptyAtclauseDescription",
+    "label": "NonEmptyAtclauseDescription",
+    "description": "Checks that Javadoc at-clauses have descriptions.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['nonEmptyAtclauseDescription']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "OneStatementPerLine",
+    "name": "rules.oneStatementPerLine",
+    "label": "OneStatementPerLine",
+    "description": "Checks that there is only one statement per line.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['oneStatementPerLine']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "OperatorWrap",
+    "name": "rules.operatorWrap",
+    "label": "OperatorWrap",
+    "description": "Checks the wrapping of operators.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['operatorWrap']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "whitespace"
+  },
+  {
+    "ruleKey": "OuterTypeFilename",
+    "name": "rules.outerTypeFilename",
+    "label": "OuterTypeFilename",
+    "description": "Checks that the outer type name matches the file name.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['outerTypeFilename']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "misc"
+  },
+  {
+    "ruleKey": "PackageAnnotation",
+    "name": "rules.packageAnnotation",
+    "label": "PackageAnnotation",
+    "description": "Checks that package annotations are in package-info.java.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['packageAnnotation']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "annotation"
+  },
+  {
+    "ruleKey": "PackageDeclaration",
+    "name": "rules.packageDeclaration",
+    "label": "PackageDeclaration",
+    "description": "Checks that a package declaration exists.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['packageDeclaration']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "misc"
+  },
+  {
+    "ruleKey": "ParameterAssignment",
+    "name": "rules.parameterAssignment",
+    "label": "ParameterAssignment",
+    "description": "Disallows assignment to method parameters.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['parameterAssignment']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "ParameterName",
+    "name": "rules.parameterName",
+    "label": "ParameterName",
+    "description": "Checks that parameter names conform to a specified pattern.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['parameterName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "ParenPad",
+    "name": "rules.parenPad",
+    "label": "ParenPad",
+    "description": "Checks the padding of parentheses.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['parenPad']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "whitespace"
+  },
+  {
+    "ruleKey": "Regexp",
+    "name": "rules.regexp",
+    "label": "Regexp",
+    "description": "Checks source code against a regular expression.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['regexp']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "misc"
+  },
+  {
+    "ruleKey": "RegexpHeader",
+    "name": "rules.regexpHeader",
+    "label": "RegexpHeader",
+    "description": "Checks for a required header using a regular expression.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['regexpHeader']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "header"
+  },
+  {
+    "ruleKey": "RegexpMultiline",
+    "name": "rules.regexpMultiline",
+    "label": "RegexpMultiline",
+    "description": "Checks multiline patterns.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['regexpMultiline']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "misc"
+  },
+  {
+    "ruleKey": "RegexpSingleline",
+    "name": "rules.regexpSingleline",
+    "label": "RegexpSingleline",
+    "description": "Checks single-line patterns.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['regexpSingleline']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "misc"
+  },
+  {
+    "ruleKey": "ReturnCount",
+    "name": "rules.returnCount",
+    "label": "ReturnCount",
+    "description": "Restricts the number of return statements.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['returnCount']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "metrics"
+  },
+  {
+    "ruleKey": "RightCurly",
+    "name": "rules.rightCurly",
+    "label": "RightCurly",
+    "description": "Checks the placement of right curly braces.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['rightCurly']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "blocks"
+  },
+  {
+    "ruleKey": "SeparatorWrap",
+    "name": "rules.separatorWrap",
+    "label": "SeparatorWrap",
+    "description": "Checks the wrapping of separators such as commas and dots.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['separatorWrap']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "whitespace"
+  },
+  {
+    "ruleKey": "SingleLineJavadoc",
+    "name": "rules.singleLineJavadoc",
+    "label": "SingleLineJavadoc",
+    "description": "Checks that single-line Javadoc comments are formatted correctly.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['singleLineJavadoc']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "StaticVariableName",
+    "name": "rules.staticVariableName",
+    "label": "StaticVariableName",
+    "description": "Checks that static, non-final variable names conform to a specified pattern.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['staticVariableName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "StringLiteralEquality",
+    "name": "rules.stringLiteralEquality",
+    "label": "StringLiteralEquality",
+    "description": "Checks that string literals are not compared using == or !=.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['stringLiteralEquality']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "SummaryJavadoc",
+    "name": "rules.summaryJavadoc",
+    "label": "SummaryJavadoc",
+    "description": "Checks that Javadoc summary sentences are well-formed.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['summaryJavadoc']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "SuppressWarnings",
+    "name": "rules.suppressWarnings",
+    "label": "SuppressWarnings",
+    "description": "Checks the use of @SuppressWarnings annotations.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['suppressWarnings']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "annotation"
+  },
+  {
+    "ruleKey": "ThrowsCount",
+    "name": "rules.throwsCount",
+    "label": "ThrowsCount",
+    "description": "Restricts the number of exceptions declared in a throws clause.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['throwsCount']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "metrics"
+  },
+  {
+    "ruleKey": "TrailingComment",
+    "name": "rules.trailingComment",
+    "label": "TrailingComment",
+    "description": "Checks for trailing comments on the same line as code.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['trailingComment']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "comments"
+  },
+  {
+    "ruleKey": "TypecastParenPad",
+    "name": "rules.typecastParenPad",
+    "label": "TypecastParenPad",
+    "description": "Checks the padding of parentheses for typecasts.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['typecastParenPad']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "whitespace"
+  },
+  {
+    "ruleKey": "TypeName",
+    "name": "rules.typeName",
+    "label": "TypeName",
+    "description": "Checks that type names conform to a specified pattern.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['typeName']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "naming"
+  },
+  {
+    "ruleKey": "UncommentedMain",
+    "name": "rules.uncommentedMain",
+    "label": "UncommentedMain",
+    "description": "Checks that main methods are commented.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['uncommentedMain']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  },
+  {
+    "ruleKey": "UnnecessaryParentheses",
+    "name": "rules.unnecessaryParentheses",
+    "label": "UnnecessaryParentheses",
+    "description": "Checks for unnecessary parentheses.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['unnecessaryParentheses']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "coding"
+  },
+  {
+    "ruleKey": "UnusedImports",
+    "name": "rules.unusedImports",
+    "label": "UnusedImports",
+    "description": "Checks for unused import statements.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['unusedImports']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "imports"
+  },
+  {
+    "ruleKey": "UpperEll",
+    "name": "rules.upperEll",
+    "label": "UpperEll",
+    "description": "Checks that long literals use an upper-case 'L'.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['upperEll']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "misc"
+  },
+  {
+    "ruleKey": "VisibilityModifier",
+    "name": "rules.visibilityModifier",
+    "label": "VisibilityModifier",
+    "description": "Checks visibility modifiers on class members.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['visibilityModifier']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "modifier"
+  },
+  {
+    "ruleKey": "WhitespaceAfter",
+    "name": "rules.whitespaceAfter",
+    "label": "WhitespaceAfter",
+    "description": "Checks that a token is followed by whitespace.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['whitespaceAfter']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "whitespace"
+  },
+  {
+    "ruleKey": "WhitespaceAround",
+    "name": "rules.whitespaceAround",
+    "label": "WhitespaceAround",
+    "description": "Checks that tokens are surrounded by whitespace.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['whitespaceAround']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "whitespace"
+  },
+  {
+    "ruleKey": "WriteTag",
+    "name": "rules.writeTag",
+    "label": "WriteTag",
+    "description": "Checks the use of @write Javadoc tags.",
+    "options": [
+      { "id": 1, "label": "off", "value": "off" },
+      { "id": 2, "label": "on", "value": "on" }
+    ],
+    "defaultValue": "off",
+    "fieldType": "SelectField",
+    "fieldPath": "config.codeQuality.codeStyle.rules['writeTag']",
+    "repoPreferenceType": "preBuild",
+    "propertyType": "Field",
+    "section": "pipeline.codeQuality.codeStyle",
+    "category": "javadoc"
+  }
+]
