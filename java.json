@@ -3,7 +3,7 @@
     "ruleKey": "AbbreviationAsWordInName",
     "name": "rules.abbreviationAsWordInName",
     "label": "AbbreviationAsWordInName",
-    "description": "Validates abbreviation (consecutive capital letters) length in identifier name, it also allows to enforce camel case naming.",
+    "description": "Validates abbreviations (consecutive capital letters) length in identifier name, it also allows to enforce camel case naming.",
     "options": [
       { "id": 1, "label": "off", "value": "off" },
       { "id": 2, "label": "on", "value": "on" }
